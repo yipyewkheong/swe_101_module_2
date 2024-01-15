@@ -1,0 +1,76 @@
+body {
+  background-image: url(https://i.ibb.co/QmPCwXp/ocean.jpg);
+  background-size: cover;
+  font-family: sans-serif;
+}
+
+/* MAIN */
+
+.menu {
+  width: 80%;
+  background-color: cornflowerblue;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+h1,
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+.item p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+hr {
+  height: 2px;
+  background: darkblue;
+  border: darkblue;
+}
+
+.promotion {
+  font-style: italic;
+}
+
+.destination-city {
+  text-align: left;
+  width: 75%;
+}
+.price {
+  text-align: right;
+  width: 25%;
+}
+.item {
+  display: flex;
+  gap: 4px;
+}
+
+/* FOOTER */
+a {
+  display: block;
+  text-align: center;
+}
+a:hover {
+  color: lightblue;
+}
+
+a:active {
+  color: navy;
+}
